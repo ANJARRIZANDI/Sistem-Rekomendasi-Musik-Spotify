@@ -1,4 +1,4 @@
-🎵 Sistem Rekomendasi Musik Spotify Menggunakan Deep Learning
+🎵 # Sistem Rekomendasi Musik Spotify Menggunakan Deep Learning
 Project Overview
 
 Perkembangan platform streaming musik seperti Spotify telah memudahkan pengguna dalam mengakses jutaan lagu dari berbagai genre. Namun, banyaknya pilihan lagu yang tersedia sering menyebabkan pengguna mengalami choice overload, yaitu kesulitan menentukan lagu yang ingin didengarkan.
