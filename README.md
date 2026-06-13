@@ -249,8 +249,61 @@ Aplikasi memungkinkan pengguna memilih lagu tertentu dan memperoleh daftar rekom
 
 ---
 
+## Content-Based Filtering
+
+Metode **Content-Based Filtering** digunakan untuk memberikan rekomendasi lagu berdasarkan kemiripan karakteristik audio antar lagu. Pada penelitian ini digunakan algoritma **K-Nearest Neighbors (KNN)** dengan metrik **Cosine Similarity**.
+
+Fitur audio yang digunakan meliputi:
+
+- Danceability
+- Energy
+- Acousticness
+- Instrumentalness
+- Liveness
+- Valence
+- Tempo
+
+### Rumus Cosine Similarity
+
+Cosine Similarity digunakan untuk mengukur tingkat kemiripan antara dua buah vektor fitur lagu.
+
+\[
+Similarity(A,B)=\frac{A \cdot B}{||A|| \times ||B||}
+\]
+
+Keterangan:
+
+- \(A\) = vektor fitur lagu pertama
+- \(B\) = vektor fitur lagu kedua
+- \(A \cdot B\) = hasil perkalian dot product kedua vektor
+- \(||A||\) = panjang (norma) vektor A
+- \(||B||\) = panjang (norma) vektor B
+
+Nilai Cosine Similarity berada pada rentang:
+
+- Mendekati **1** → kedua lagu sangat mirip.
+- Mendekati **0** → kedua lagu tidak memiliki kemiripan.
+- Mendekati **-1** → kedua lagu berlawanan.
+
+### Algoritma K-Nearest Neighbors (KNN)
+
+Setelah nilai kemiripan diperoleh, algoritma K-Nearest Neighbors (KNN) digunakan untuk mencari sejumlah lagu yang memiliki tingkat kemiripan tertinggi.
+
+Secara umum, proses KNN dapat dinyatakan sebagai:
+
+\[
+R(x)=\operatorname{Top}\text{-}K\left(Similarity(x_i,x_j)\right)
+\]
+
+Keterangan:
+
+- \(R(x)\) = himpunan rekomendasi lagu
+- \(K\) = jumlah lagu yang direkomendasikan
+- \(Similarity(x_i,x_j)\) = nilai kemiripan antar lagu
+
+Dengan pendekatan ini, sistem akan memilih beberapa lagu yang memiliki karakteristik audio paling mirip dengan lagu yang dipilih pengguna.
+
 # Kesimpulan
-Pendekatan Content-Based Filtering digunakan untuk memberikan rekomendasi lagu berdasarkan kemiripan karakteristik audio antar lagu. Proses pengukuran kemiripan dilakukan menggunakan algoritma Cosine Similarity, sedangkan pencarian lagu yang paling mirip dilakukan menggunakan algoritma K-Nearest Neighbor (KNN).
 
 1. Content-Based Filtering mampu memberikan rekomendasi berdasarkan karakteristik audio lagu.
 
