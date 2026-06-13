@@ -23,7 +23,7 @@ Dataset berisi informasi mengenai:
 Berikut merupakan hasil eksplorasi awal dataset yang digunakan.
 
 <p align="center">
-  <img src="data_understanding.png" width="900">
+  <img src="Data_Understanding.png" width="900">
 </p>
 
 ### 10 Artis dengan Jumlah Lagu Terbanyak
@@ -61,7 +61,7 @@ Langkah-langkah yang dilakukan meliputi:
 ### Hasil Data Preparation
 
 <p align="center">
-  <img src="data_preparation.png" width="900">
+  <img src="Data_Preparation.png" width="900">
 </p>
 
 ---
@@ -88,7 +88,7 @@ Model Deep Learning dibangun menggunakan TensorFlow dan Keras Functional API den
 - Output Layer
 
 <p align="center">
-  <img src="model_dan_evaluation_deep_learning_1.png" width="900">
+  <img src="Model_dan_Evaluation_Deep_Learning_1.png" width="900">
 </p>
 
 ## Hasil Evaluasi Model
@@ -96,7 +96,7 @@ Model Deep Learning dibangun menggunakan TensorFlow dan Keras Functional API den
 Evaluasi dilakukan menggunakan metrik Root Mean Squared Error (RMSE). Nilai RMSE digunakan untuk mengukur selisih antara rating sebenarnya dengan rating hasil prediksi model.
 
 <p align="center">
-  <img src="model_dan_evaluation.png" width="900">
+  <img src="Model_dan_Evaluation.png" width="900">
 </p>
 
 ## Grafik RMSE
