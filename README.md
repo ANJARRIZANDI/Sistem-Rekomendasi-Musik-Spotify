@@ -119,3 +119,7 @@ Grafik berikut menunjukkan perkembangan nilai RMSE pada data pelatihan dan data 
 ## Kesimpulan
 
 Neural Network-Based Recommender System mampu mempelajari hubungan kompleks antara pengguna dan lagu. Meskipun model menunjukkan performa yang baik pada data pelatihan, masih terdapat indikasi overfitting ringan sehingga diperlukan regularisasi dan tuning hyperparameter untuk meningkatkan performa model.
+
+<p align="center">
+  <img src="App_Run.png" width="700">
+</p>
