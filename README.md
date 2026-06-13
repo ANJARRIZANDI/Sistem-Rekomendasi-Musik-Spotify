@@ -195,7 +195,7 @@ Model terdiri dari:
 ### Arsitektur Deep Learning
 
 <p align="center">
-  <img src="Model_dan_Evaluation_Deep_Learning_1.png" width="900">
+  <img src="Model_dan_Evaluation_Deep_Learning1.png" width="900">
 </p>
 
 Embedding Layer digunakan untuk mempelajari representasi laten antara pengguna dan lagu sehingga hubungan kompleks antar keduanya dapat dipelajari dengan lebih baik.
@@ -298,7 +298,7 @@ Setelah nilai kemiripan diperoleh, algoritma K-Nearest Neighbors (KNN) digunakan
 Secara umum, proses KNN dapat dinyatakan sebagai:
 
 <p align="center">
-  <img src="KNNpng" width="700">
+  <img src="KNN.png" width="700">
 </p>
 
 
