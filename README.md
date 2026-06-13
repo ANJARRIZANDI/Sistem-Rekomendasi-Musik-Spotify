@@ -267,17 +267,23 @@ Fitur audio yang digunakan meliputi:
 
 Cosine Similarity digunakan untuk mengukur tingkat kemiripan antara dua buah vektor fitur lagu.
 
-\[
-Similarity(A,B)=\frac{A \cdot B}{||A|| \times ||B||}
-\]
+<p align="center">
+  <img src="Similarity.png" width="700">
+</p>
 
 Keterangan:
 
-- \(A\) = vektor fitur lagu pertama
-- \(B\) = vektor fitur lagu kedua
-- \(A \cdot B\) = hasil perkalian dot product kedua vektor
-- \(||A||\) = panjang (norma) vektor A
-- \(||B||\) = panjang (norma) vektor B
+A = vektor fitur lagu pertama
+B = vektor fitur lagu kedua
+A · B = hasil perkalian dot product antara dua vektor
+||A|| = panjang (norma) vektor A
+||B|| = panjang (norma) vektor B
+
+Interpretasi nilai Cosine Similarity:
+
+Nilai mendekati 1 → kedua lagu sangat mirip.
+Nilai mendekati 0 → kedua lagu tidak memiliki kemiripan.
+Nilai mendekati -1 → kedua lagu memiliki karakteristik yang berlawanan.
 
 Nilai Cosine Similarity berada pada rentang:
 
@@ -291,15 +297,16 @@ Setelah nilai kemiripan diperoleh, algoritma K-Nearest Neighbors (KNN) digunakan
 
 Secara umum, proses KNN dapat dinyatakan sebagai:
 
-\[
-R(x)=\operatorname{Top}\text{-}K\left(Similarity(x_i,x_j)\right)
-\]
+<p align="center">
+  <img src="KNNpng" width="700">
+</p>
+
 
 Keterangan:
 
-- \(R(x)\) = himpunan rekomendasi lagu
-- \(K\) = jumlah lagu yang direkomendasikan
-- \(Similarity(x_i,x_j)\) = nilai kemiripan antar lagu
+R(x) = hasil rekomendasi lagu.
+K = jumlah lagu yang direkomendasikan.
+Similarity(xᵢ, xⱼ) = tingkat kemiripan antara lagu ke-i dan lagu ke-j.
 
 Dengan pendekatan ini, sistem akan memilih beberapa lagu yang memiliki karakteristik audio paling mirip dengan lagu yang dipilih pengguna.
 
