@@ -24,7 +24,7 @@ Membangun sistem rekomendasi yang lebih personal.
 
 Pada tahap **Data Understanding**, dilakukan eksplorasi terhadap dataset Spotify untuk memahami karakteristik data yang akan digunakan dalam membangun sistem rekomendasi musik.
 
-Dataset yang digunakan merupakan **Spotify Tracks Dataset** yang berisi informasi mengenai lagu beserta fitur audio yang dimiliki setiap lagu. Dataset ini digunakan untuk menemukan pola hubungan antar lagu sehingga dapat menghasilkan rekomendasi yang relevan bagi pengguna.
+Dataset yang digunakan merupakan **Spotify Tracks Dataset dari kaggle** yang berisi informasi mengenai lagu beserta fitur audio yang dimiliki setiap lagu. Dataset ini digunakan untuk menemukan pola hubungan antar lagu sehingga dapat menghasilkan rekomendasi yang relevan bagi pengguna.
 
 ## Informasi Dataset
 
