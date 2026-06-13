@@ -1,11 +1,11 @@
 # 🎵  Sistem Rekomendasi Musik Spotify Menggunakan Deep Learning
-Project Overview
+## Project Overview
 
 Perkembangan platform streaming musik seperti Spotify telah memudahkan pengguna dalam mengakses jutaan lagu dari berbagai genre. Namun, banyaknya pilihan lagu yang tersedia sering menyebabkan pengguna mengalami choice overload, yaitu kesulitan menentukan lagu yang ingin didengarkan.
 
 Proyek ini bertujuan membangun sistem rekomendasi musik yang mampu memberikan rekomendasi lagu secara personal dengan memanfaatkan karakteristik audio lagu serta pendekatan Deep Learning.
 
-Metode yang digunakan meliputi:
+## Metode yang digunakan meliputi:
 
 Content-Based Filtering
 Collaborative Filtering (SVD)
