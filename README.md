@@ -250,6 +250,7 @@ Aplikasi memungkinkan pengguna memilih lagu tertentu dan memperoleh daftar rekom
 ---
 
 # Kesimpulan
+Pendekatan Content-Based Filtering digunakan untuk memberikan rekomendasi lagu berdasarkan kemiripan karakteristik audio antar lagu. Proses pengukuran kemiripan dilakukan menggunakan algoritma Cosine Similarity, sedangkan pencarian lagu yang paling mirip dilakukan menggunakan algoritma K-Nearest Neighbor (KNN).
 
 1. Content-Based Filtering mampu memberikan rekomendasi berdasarkan karakteristik audio lagu.
 
