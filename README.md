@@ -274,16 +274,14 @@ Cosine Similarity digunakan untuk mengukur tingkat kemiripan antara dua buah vek
 Keterangan:
 
 A = vektor fitur lagu pertama
+
 B = vektor fitur lagu kedua
+
 A · B = hasil perkalian dot product antara dua vektor
+
 ||A|| = panjang (norma) vektor A
+
 ||B|| = panjang (norma) vektor B
-
-Interpretasi nilai Cosine Similarity:
-
-Nilai mendekati 1 → kedua lagu sangat mirip.
-Nilai mendekati 0 → kedua lagu tidak memiliki kemiripan.
-Nilai mendekati -1 → kedua lagu memiliki karakteristik yang berlawanan.
 
 Nilai Cosine Similarity berada pada rentang:
 
@@ -305,7 +303,9 @@ Secara umum, proses KNN dapat dinyatakan sebagai:
 Keterangan:
 
 R(x) = hasil rekomendasi lagu.
+
 K = jumlah lagu yang direkomendasikan.
+
 Similarity(xᵢ, xⱼ) = tingkat kemiripan antara lagu ke-i dan lagu ke-j.
 
 Dengan pendekatan ini, sistem akan memilih beberapa lagu yang memiliki karakteristik audio paling mirip dengan lagu yang dipilih pengguna.
